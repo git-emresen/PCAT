@@ -12,7 +12,7 @@ const pageController=require('./controllers/pageController')
 
 const app = express()
 
-mongoose.connect('mongodb+srv://siyahand:Zk30jWL5sbI2lmIo@pcat-app.ibymm0j.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://siyahand:Zk30jWL5sbI2lmIo@pcat-app.7jfltch.mongodb.net/?retryWrites=true&w=majority')
 .then(()=>{
    console.log(`port number has been set as ${port}`)
   })
