@@ -40,7 +40,7 @@
                             <a href="/photos/edit/<%= photo._id %>">
                                 <button class="btn btn-primary p-0 tm-btn-animate tm-btn-download tm-icon-download"><span>EDIT PHOTO</span></button>	
                             </a>
-                            <a href="#" class="tm-bg-white px-5 mb-4 d-inline-block tm-text-primary tm-likes-box tm-liked">
+                            <a href="/photos/<%= photo._id %>?_method=DELETE" class="tm-bg-white px-5 mb-4 d-inline-block tm-text-primary tm-likes-box tm-liked">
                                 <span id="tm-likes-count">DELETE PHOTO</span>
                             </a>			
                         </div>
